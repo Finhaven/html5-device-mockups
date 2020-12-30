@@ -1,8 +1,8 @@
 /*!
  * html5-device-mockups (https://github.com/pixelsign/html5-device-mockups)
- * Copyright 2013 - 2018 pixelsign
+ * Copyright 2013 - 2020 pixelsign
  * Licensed under MIT (https://github.com/pixelsign/html5-device-mockups/blob/master/LICENSE.txt)
- * Last Build: Thu Dec 20 2018 14:05:50
+ * Last Build: Tue Dec 29 2020 16:27:10
  */
 .device-wrapper {
   max-width: 300px;
@@ -24,34 +24,6 @@
   .device .button {
     position: absolute;
     cursor: pointer; }
-
-.device[data-device="iPhoneX"][data-orientation="portrait"][data-color="black"] {
-  padding-bottom: 198.89807163%;
-  background-image: url(../device-mockups/iPhoneX/portrait.png);
-  z-index: initial;
-}
-  .device[data-device="iPhoneX"][data-orientation="portrait"][data-color="black"] .screen {
-    top: 3.254847645%;
-    left: 7.162534435%;
-    width: 85.67493113%;
-    height: 93.49030471%;
-    border: 0px;
-    z-index: -1;
-  }
-
-.device[data-device="iPhoneX"][data-orientation="landscape"][data-color="black"] {
-  padding-bottom: 50.27700831%;
-  background-image: url(../device-mockups/iPhoneX/landscape.png);
-  z-index: initial;
-}
-  .device[data-device="iPhoneX"][data-orientation="landscape"][data-color="black"] .screen {
-    top: 7.162534435%;
-    left: 3.254847645%;
-    width: 93.49030471%;
-    height: 85.67493113%;
-    border: 0px;
-    z-index: -1;
-  }
 
 .device[data-device="galaxyS3"][data-orientation="portrait"][data-color="black"] {
   padding-bottom: 194.717887155%; }
@@ -1146,8 +1118,7 @@
     height: 82.4285714286%; }
   .device[data-device="MacbookPro"][data-orientation="portrait"][data-color="black"]::after {
     content: '';
-    background-image: url(../device-mockups/MacbookPro/portrait_black.png);
-    z-index: -1; }
+    background-image: url(../device-mockups/MacbookPro/portrait_black.png); }
   .device[data-device="MacbookPro"][data-orientation="portrait"][data-color="black"] .button {
     display: none;
     top: 0%;
